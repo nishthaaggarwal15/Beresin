@@ -1,0 +1,716 @@
+ /* Resetting default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-y: auto; 
+  }
+  
+  /* Berslin Navbar styles */
+  .berslin-navbar {
+    width: 1440px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    margin-left: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .get-started {
+    background-color: #9c27b0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started:hover {
+    background-color: #7b1fa2;
+  }
+  
+  /* //hero section */
+  .hero {
+    position: absolute;
+    width: 558px;
+    height: 304px;
+    top: 200px;
+    left: 80px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-subheading {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .hero-heading {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  
+  .hero-text {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  
+  .hero-options {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .get-started-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #9c27b0;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 14px;
+  }
+  
+  .how-it-works-link {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #9c27b0;
+    color: white;
+    text-decoration: none;
+    margin-right: 14px;
+  }
+  
+  .how-it-works-link {
+    background-color: transparent;
+    color: #6a1b9a;
+  }
+  
+  .get-started-button:hover,
+  .how-it-works-link:hover {
+    background-color: #d8d2db;
+  }
+  
+  /* //image */
+  .hero-image {
+    position: absolute;
+    width: 480px;
+    height: 693px;
+    background-image: url('hero.jpeg');
+    top: 64px;
+    right: calc(100vw - (574px + 480px + 100px));
+    gap: 0px;
+  }
+  
+  /* fun fact */
+  .fun-facts {
+    position: absolute;
+    width: 132px;
+    height: 340px;
+    top: 200px;
+    right: calc(100vw - (574px + 480px + 180px + 132px));
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .fact p {
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+  
+  /* Social Proof */
+  .social-proof {
+      width: 1440px;
+      height: 353px;
+      padding: 64px 149px;
+      gap: 0px;
+      background: #EFF3FF;
+      position: relative; /* Add this line */
+      top: 600px; /
+    }
+    
+    .card {
+      width: 1141px;
+      height: 225px;
+      top: 64px;
+      left: 150px;
+      gap: 95px;
+      display: flex;
+      justify-content: space-between;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .cardf {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    
+    .cardf h2 {
+      font-size: 1.5rem;
+      
+    }
+    
+    .cardf p {
+      font-size: 1rem;
+      margin-top: 8px;
+    }
+    
+    /* Services Section */
+    .services-section {
+      width: 1440px;
+      height: 605px;
+      padding: 64px 149px;
+      position: relative;
+      top: 600px;
+    }
+    
+    .services-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+    
+    .services-heading h2 {
+      font-size: 2rem;
+    }
+    
+    .all-services-button {
+      background-color: #9c27b0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+    
+    .services-description {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    
+    .services-container {
+      display: flex;
+      gap: 16px;
+    }
+    
+    .service-card {
+      flex: 1;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: white;
+    }
+    
+    .service-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .service-card p {
+      font-size: 1rem;
+    }
+    
+    .learn-more-button {
+      display: inline-block;
+      padding: 10px 20px;
+      color: #ff9800;
+      text-decoration: none;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+    
+    .logo-image {
+      width: 80px; /* Adjust according to your logo size */
+      margin: 0 auto 10px; /* Center the logo above the heading */
+      display: block; /* Ensure the logo is displayed as a block element */
+    }
+    
+  
+  /* Why Us Section */
+  .why-us-section {
+      display: block; /* Change display property to block */
+      position: relative;
+      width: 1440px;
+      height: 700px;
+      padding: 64px 149px;
+      top: 540px;
+      background: #EFF3FF;
+    }
+    
+    .why-us-image {
+      width: 485px;
+      height: 688px;
+      position: relative;
+    }
+    
+    .why-us-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .why-us-title {
+      width: 485px; /* Adjust width as needed */
+      margin-left: 20px; /* Adjust margin as needed */
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .why-us-title h2 {
+      font-size: 2rem;
+      color: #6a1b9a;
+     
+    }
+    
+    .why-us-title h1 {
+      font-size: 2rem;
+      
+    }
+    
+    .why-us-title p {
+      font-size: 1.5rem;
+      color: #999;
+    }
+    
+    
+    .why-us-content {
+      display: flex;
+    }
+    
+    .why-us-image {
+      width: 485px;
+      height: 688px;
+      margin-right: 20px; /* Adjust margin to create space between image and title */
+    }
+    .why-us-image img {
+      height: 630px;
+    }
+    .why-us-title {
+      width: calc(100% - 505px); /* Adjust width to fit remaining space */
+    }
+    
+    .why-us-additional-info {
+      width: 558px;
+      height: 346px;
+      position: absolute;
+      top: 260px;
+      left: 680px; /* Adjusted left position */
+      gap: 20px;
+    }
+    
+    .info-list {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .info-item {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    
+    .info-item span {
+      font-size: 1.5rem;
+      margin-right: 10px;
+    }
+    
+    .info-item h3 {
+      font-size: 1.2rem;
+      color: #6a1b9a;
+      margin-bottom: 5px;
+    }
+    
+    .info-item p {
+      font-size: 1rem;
+      margin-top: 5px; /* Adjusted margin-top */
+    }
+  
+  
+  
+  /* Pricing Table Section */
+  .pricing-table-section {
+    width: 100%;
+    height: 100vh; /* Make the section take up the full height of the viewport */
+    display: flex;
+    position: relative;
+   
+    align-items: center;
+    flex-direction: column;
+    top: 530px; /* Align content vertically */
+    /* background-color: white; */
+  }
+  
+  .pricing-table-container {
+    text-align: center;
+  margin-top: 10px;
+    max-width: 800px;
+  
+  }
+  
+  .pricing-subheading {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+  }
+  
+  .pricing-heading {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  
+  .pricing-text {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  /* Table Div */
+  .table-section {
+    width: 100%;
+    padding: 64px 149px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .table-container {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .table {
+    width: 340px;
+    height: 582px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+   background-color:  #F5F2F7;
+   ;
+    padding: 24px;
+  }
+  
+  .table-subheading {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+  }
+  
+  .table-price {
+    font-size: 2rem;
+    color: #000;
+    margin-top: 16px;
+  }
+  
+  .table-text {
+    font-size: 1rem;
+    margin-top: 16px;
+  }
+  
+  .icon-list {
+    list-style-type: none;
+    margin-top: 16px;
+    padding-left: 0;
+  }
+  
+  .icon-list li {
+    margin-bottom: 8px;
+  }
+  
+  .get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9c27b0;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 16px;
+  }
+  
+  .get-started-button:hover {
+    background-color: #7b1fa2;
+  }
+  
+/* Our Team Section */
+.our-team-section {
+    width: 100%;
+    padding: 64px 149px;
+    display: flex;
+    justify-content: center;
+    top: 700px; /* Adjusted top position */
+    position: relative;
+    background: #EFF3FF;
+}
+  
+  .our-team-container {
+    text-align: center;
+    max-width: 1140px;
+  }
+  
+  .our-team-subheading {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+  }
+  
+  .our-team-heading {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  .team-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; /* Increase the margin to create a larger gap */
+    gap: 20px; /* Add a gap between team cards */
+  }
+ 
+ 
+  .team-card {
+    width: 267px;
+    height: 388px;
+    gap: 0px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 246px;
+    background-color: #6a1b9a; /* Purple background */
+    border-radius: 12px 12px 0 0; /* Rounded top corners */
+  }
+  
+  .names {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .names h3 {
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000; /* Black text color */
+  }
+  .names p {
+    color: #4c4c4c;
+  }
+  
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: #000; /* Black line color */
+    margin: 10px 0;
+  }
+  
+  .follow-twitter {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .twitter-link {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #b768b4; /* Black text color */
+  }
+  
+
+  .testimonial-section {
+    width: 1440px;
+    width: 979px;
+    padding: 64px 149px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 700px;
+  }
+  
+  .title {
+    width: 645px;
+    height: 172px;
+    position: absolute;
+    top: 96px;
+    left: 398px;
+    gap: 14px;
+    text-align: center;
+  }
+  
+  .title h2 {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+  }
+  
+  .title h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #000;
+  }
+  
+  .title p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: #000;
+  }
+  
+  .cardd-row {
+    width: 1100px;
+    height: 261px;
+    position: absolute;
+    top: 332px;
+    left: 170px;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .cardd {
+    width: 340px;
+    height: 400x;
+    gap: 0px;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 10px;
+  }
+  .cardd:hover{
+    background-color: #beb2b2;
+  }
+  .text {
+    padding: 20px;
+    /* z */
+  }
+  
+  .stars {
+    font-size: 24px;
+    margin-bottom: 10px; 
+    color: #ff9800;
+  }
+  
+  .image-box {
+    width: 100%;
+    height: calc(100% - 150px);
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 5px;
+  left: -30px;
+   
+  }
+
+  .purple-circle {
+    width: 52px;
+    height: 52px;
+   
+    background-color: #6a1b9a;
+    border-radius: 100px;
+   
+  
+  
+  }
+  
+.titlee-container {
+    margin-left: 10px; /* Adjust this margin as needed */
+  }
+  
+  .titlee {
+    color: black;
+    font-size: 1.2rem;
+    
+  }
+  .titlee p{
+    color: #aaa4a4;
+  }
+  .testimonial-info {
+    width: 390px;
+    height: 100px;
+    position: absolute;
+    top: 657px;
+    left: 525px;
+    gap: 14px;
+
+    text-align: center;
+  }
+  
+  .star-ratings-css {
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 30px;
+    height: 35px;
+    width: 125px;
+    margin: 0 auto;
+    position: relative;
+    text-shadow: 0px 1px 0 #a2a2a2;
+  }
+  
+  .star-ratings-css-top {
+    color: #e7711b;
+    padding-top: 1px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .star-ratings-css-bottom {
+    display: block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+ 
+  
+  /* CSS for the footer */
+  .footer {
+    width: 1440px;
+    height: 416px;
+    background-color: #1B1850;
+    margin: 0 auto; /* Center the footer horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* CSS for footer content */
+  .footer-content {
+    color: white;
+    text-align: center;
+  }
