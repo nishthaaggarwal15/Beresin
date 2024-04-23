@@ -263,15 +263,15 @@
     }
     
     .logo-image {
-      width: 80px; /* Adjust according to your logo size */
-      margin: 0 auto 10px; /* Center the logo above the heading */
-      display: block; /* Ensure the logo is displayed as a block element */
+      width: 80px; 
+      margin: 0 auto 10px; 
+      display: block; 
     }
     
   
   /* Why Us Section */
   .why-us-section {
-      display: block; /* Change display property to block */
+      display: block; 
       position: relative;
       width: 1440px;
       height: 700px;
@@ -293,8 +293,8 @@
     }
     
     .why-us-title {
-      width: 485px; /* Adjust width as needed */
-      margin-left: 20px; /* Adjust margin as needed */
+      width: 485px; 
+      margin-left: 20px; 
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
@@ -322,21 +322,20 @@
     .why-us-image {
       width: 485px;
       height: 688px;
-      margin-right: 20px; /* Adjust margin to create space between image and title */
+      margin-right: 20px; 
     }
     .why-us-image img {
       height: 630px;
     }
     .why-us-title {
-      width: calc(100% - 505px); /* Adjust width to fit remaining space */
-    }
+      width: calc(100% - 505px); 
     
     .why-us-additional-info {
       width: 558px;
       height: 346px;
       position: absolute;
       top: 260px;
-      left: 680px; /* Adjusted left position */
+      left: 680px;
       gap: 20px;
     }
     
@@ -364,22 +363,20 @@
     
     .info-item p {
       font-size: 1rem;
-      margin-top: 5px; /* Adjusted margin-top */
-    }
+      margin-top: 5px; 
   
   
   
   /* Pricing Table Section */
   .pricing-table-section {
     width: 100%;
-    height: 100vh; /* Make the section take up the full height of the viewport */
+    height: 100vh; 
     display: flex;
     position: relative;
    
     align-items: center;
     flex-direction: column;
-    top: 530px; /* Align content vertically */
-    /* background-color: white; */
+    top: 530px; 
   }
   
   .pricing-table-container {
@@ -472,7 +469,7 @@
     padding: 64px 149px;
     display: flex;
     justify-content: center;
-    top: 700px; /* Adjusted top position */
+    top: 700px; 
     position: relative;
     background: #EFF3FF;
 }
@@ -494,8 +491,8 @@
   .team-cards {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px; /* Increase the margin to create a larger gap */
-    gap: 20px; /* Add a gap between team cards */
+    margin-top: 40px; 
+    gap: 20px; 
   }
  
  
@@ -508,8 +505,8 @@
   .image {
     width: 100%;
     height: 246px;
-    background-color: #6a1b9a; /* Purple background */
-    border-radius: 12px 12px 0 0; /* Rounded top corners */
+    background-color: #6a1b9a; 
+    border-radius: 12px 12px 0 0;
   }
   
   .names {
@@ -523,7 +520,7 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
-    color: #000; /* Black text color */
+    color: #000; 
   }
   .names p {
     color: #4c4c4c;
@@ -532,7 +529,7 @@
   .line {
     width: 100%;
     height: 1px;
-    background-color: #000; /* Black line color */
+    background-color: #000; 
     margin: 10px 0;
   }
   
@@ -645,7 +642,7 @@
   }
   
 .titlee-container {
-    margin-left: 10px; /* Adjust this margin as needed */
+    margin-left: 10px; 
   }
   
   .titlee {
@@ -697,20 +694,3 @@
     top: 0;
   }
  
-  
-  /* CSS for the footer */
-  .footer {
-    width: 1440px;
-    height: 416px;
-    background-color: #1B1850;
-    margin: 0 auto; /* Center the footer horizontally */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* CSS for footer content */
-  .footer-content {
-    color: white;
-    text-align: center;
-  }
