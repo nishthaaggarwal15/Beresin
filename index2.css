@@ -328,7 +328,7 @@
       height: 630px;
     }
     .why-us-title {
-      width: calc(100% - 505px); 
+      width: calc(100% - 505px); }
     
     .why-us-additional-info {
       width: 558px;
@@ -364,7 +364,7 @@
     .info-item p {
       font-size: 1rem;
       margin-top: 5px; 
-  
+    }
   
   
   /* Pricing Table Section */
@@ -373,7 +373,6 @@
     height: 100vh; 
     display: flex;
     position: relative;
-   
     align-items: center;
     flex-direction: column;
     top: 530px; 
@@ -419,7 +418,7 @@
     gap: 0px;
     border-radius: 16px 0px 0px 0px;
    background-color:  #F5F2F7;
-   ;
+   
     padding: 24px;
   }
   
@@ -694,3 +693,171 @@
     top: 0;
   }
  
+  .footer {
+    width: 1440px;
+    height: 416px;
+    background-color: #1B1850;
+    margin: 0 auto; /* Centering the footer horizontally */
+    padding: 20px; /* Adding some padding */
+    box-sizing: border-box;
+     /* Include padding and border in the element's total width and height */
+     position: relative;
+     top: 1400px;
+     display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    gap: 20px ;
+  }
+
+  .footer-content {
+    color: white;
+    text-align: center;
+    line-height: 2;
+    gap: 20px;
+   
+  }
+
+  /* Styles for the social media section */
+  .social-media {
+    flex: 1; /* Occupy remaining space */
+    text-align: left;
+  margin-top: 1px;
+  }
+
+  .social-media h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: -132px;
+   
+  }
+
+  .social-media p {
+    color: white;
+  }
+
+  .social-media .icons {
+
+    display: flex;
+    gap: 0;
+  }
+
+  .social-media .icons a {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    border-radius: 200px 0 0 0;
+ 
+    
+  }
+
+  .social-media .icons a:hover {
+    opacity: 1;
+  }
+  /* Styles for the navigation section */
+  .navigation {
+    width: 117px;
+    height: 186px;
+    position: absolute;
+    top: 64px;
+    left: 552px;
+    gap: 20px;
+    background-color: #1B1850;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .navigation h2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navigation li {
+    margin-bottom: 8px;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+/* Styles for the services section */
+.services {
+  width: 117px;
+  height: 186px;
+  position: absolute;
+  top: 64px;
+  left: 691px; /* Adjusted to place it beside the navigation section */
+  gap: 20px;
+  background-color: #1B1850;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.services h2 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services li {
+  margin-bottom: 8px;
+}
+
+.services li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+/* Styles for the contact section */
+.contact {
+  width: 200px;
+  height: 186px;
+  position: absolute;
+  top: 64px;
+  left: 830px; /* Adjusted to place it beside the services section */
+  gap: 12px;
+  background-color: #1B1850;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contact h2 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.contact li {
+  margin-bottom: 8px;
+}
+
+.contact li span {
+  margin-right: 8px;
+}
