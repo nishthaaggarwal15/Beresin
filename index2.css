@@ -1,4 +1,4 @@
- /* Resetting default styles */
+
  * {
     margin: 0;
     padding: 0;
@@ -542,7 +542,7 @@
     font-style: italic;
     font-size: 12px;
     margin-top: 10px;
-    color: #b768b4; /* Black text color */
+    color: #b768b4; 
   }
   
 
@@ -697,14 +697,14 @@
     width: 1440px;
     height: 416px;
     background-color: #1B1850;
-    margin: 0 auto; /* Centering the footer horizontally */
-    padding: 20px; /* Adding some padding */
+    margin: 0 auto; 
+    padding: 20px; 
     box-sizing: border-box;
-     /* Include padding and border in the element's total width and height */
+    
      position: relative;
      top: 1400px;
-     display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
+     display: flex; 
+    align-items: center;
     justify-content: space-between;
     gap: 20px ;
   }
@@ -719,7 +719,7 @@
 
   /* Styles for the social media section */
   .social-media {
-    flex: 1; /* Occupy remaining space */
+    flex: 1; 
     text-align: left;
   margin-top: 1px;
   }
@@ -795,7 +795,7 @@
   height: 186px;
   position: absolute;
   top: 64px;
-  left: 691px; /* Adjusted to place it beside the navigation section */
+  left: 691px; 
   gap: 20px;
   background-color: #1B1850;
   padding: 20px;
@@ -829,7 +829,7 @@
   height: 186px;
   position: absolute;
   top: 64px;
-  left: 830px; /* Adjusted to place it beside the services section */
+  left: 830px; 
   gap: 12px;
   background-color: #1B1850;
   padding: 20px;
